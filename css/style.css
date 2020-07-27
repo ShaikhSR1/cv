@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    /*background: url('../images/background-4.jpg');
+  filter: blur(2px);
+  -webkit-filter: blur(8px);
+    /*background-color: #ebecf1 #e4e3e3;
+  background-size: cover;*/
+}
+
+.background {
+    margin: 0;
+    background-image: url('../images/background-6.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    /* This be the blur*/
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+/*
+.multiple-filters {
+  backdrop-filter: blur(20px) saturate(120%) contrast(200%);
+}*/
+.top {
+    width: 100%;
+    height: 100px;
+    background-color: #215464;
+    position: static;
+    margin: 0;
+}
+
+/*.text-1 {
+
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}*/
+
+.top-1 {
+    width: 100%;
+    height: 500px;
+    position: static;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    /*position: relative;
+    top: 25px;*/
+}
+
+.center:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    /*top: -25px;*/
+    border-radius: 30px;
+    transition: .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.top-2 {
+    margin-bottom: 20px;
+}
+
+.text-2_1 {
+    font-size: 50px;
+}
+
+.text-2_2 {
+    font-size: 120px;
+    font-weight: 300;
+    color: white;
+}
+
+.top-4 {
+    line-height: 1.6;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    font-size: 35px;
+    color: white;
+    left: 90px;
+}
+
+.top-3 {
+    margin : 100px;
+    /*background-color: #215464;*/
+}
+
+hr {
+    margin-top: 250px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 12px;
+    width: 5%;
+    margin-bottom: 250px;
+}
+
+
+
+
+.text-3 {
+    margin-top: 250px;
+    margin-bottom: 200px;
+    font-size: 100px;
+    font-weight: 400;
+    color: White;
+    left: 90px;
+}
+
+.table-1 {
+    position: static;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+/*td {
+    background-color: white;
+}*/
+
+.tpp {
+    margin: 30px;
+    height: 544px;
+    width: 960px;
+    border-radius: 20px;
+}
+
+.tpp:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 652px;
+    width: 1152px;
+    position: relative;
+    /*top: -25px;*/
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.txt {
+    width: 70%;
+    vertical-align: top;
+    /*background-color: white;*/
+    position: relative;
+}
+
+.txtdv {
+    font-size: 40px;
+    text-align:left;
+    /*background-color: white;*/
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: /*1400px*/auto;
+    height: /*500px*/auto;
+    color:white;
+    /*background-color: blue;*/
+}
+
+.ttx {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+}
+
+.ttxx {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    margin: 10px 0px 10px;
+}
+
+.ttxxx {
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    margin: 80px 0px 10px;
+}
+
+
+
+.top-5 {
+    margin : 100px;
+    /*background-color: #215464;*/
+}
+
+.table-2 {
+    margin: auto;
+}
+
+.tpp-2 {
+    margin: 0;
+    height: 400px;
+    width: 705px;
+    border-radius: 10px;
+    position: relative;
+}
+
+/*.tpp-2:hover {
+    display: inline;
+    z-index: 10;
+    position: absolute;
+    height: 500px;
+    width: 880px;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+*/
