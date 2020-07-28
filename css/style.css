@@ -220,6 +220,11 @@ hr {
     margin: auto;
 }
 
+.tdd {
+    width: 25%;
+    height: 25%;
+}
+
 .tpp-2 {
     margin: 0;
     height: 400px;
